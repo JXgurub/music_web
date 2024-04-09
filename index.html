@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUsic</title>
+</head>
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css">
+<body>
+
+
+
+
+
+
+    <div class="Music-player-body">
+        <h2>MUSIC PLAYER</h2>
+        <img src="" alt="trackimages" class="track-images" id="track-Images">
+        <h3 id="trackName"></h3>
+        <audio id="audioPlayer" controls>
+            <source src="music/Minelli - Rampampam _ Official Video.mp3" type="audio/mpeg">
+            your browser does not support the audio element.
+        </audio>
+        <div class="controls">
+            <button class="prev-button" id="prevButton">&#9665;</button>
+            <button class="play-pause-button" id="playPlayButton">&#9658;</button>
+            <button class="pnext-button" id="nextButton">&#9655;</button>            
+        </div>
+    </div>
+
+<!-- js -->
+<script>
+    const audioPlayer = document.getElementById('audioPlayer');
+    const playPauseButton = document.getElementById('playPauseButton');
+    const nextButton = Document.getElementById('nextButton');
+    const prevButton = Document.getElementById('prevButton');
+    const trackNameElement = Document.getElementById('trackName');
+    const trackImageElement = Document.getElementById('trackImage');
+
+    const audioFiles={
+        name:"Akon - Right Now (Na Na Na)",src:'music/Akon - Right Now (Na Na Na) (Official Video).mp3',image:'rasim/background1.jpg'
+    }
+
+</script>
+
+
+
+
+
+</body>
+</html>
